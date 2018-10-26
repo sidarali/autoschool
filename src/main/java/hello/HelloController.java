@@ -11,7 +11,7 @@ public class HelloController {
     @RequestMapping("/")
     public String index() {
         log.info("logger hi");
-        return "Greetings from Spring Boot! ci";
+        return "Greetings from Spring Boot! ci in jenkins";
     }
     
 }
